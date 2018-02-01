@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#464E66">
+
+        <LinearLayout
+            android:id="@+id/lldetailsback"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/arrow_back" />
+
+         <!--   <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="7dp"
+                android:gravity="center_vertical"
+                android:text="Back"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="BMW Woodlands"
+                android:layout_marginLeft="7dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Open Maps"
+            android:id="@+id/tvopenmaps"
+            android:layout_marginLeft="7dp"
+            android:gravity="center_vertical|right"
+            android:textColor="#ffffff"
+            android:layout_marginRight="5dp"
+            android:textSize="20sp"
+            />
+    </FrameLayout>
+    <fragment
+        android:id="@+id/map"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</LinearLayout>

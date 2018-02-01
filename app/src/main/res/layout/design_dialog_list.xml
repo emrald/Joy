@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlDialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <LinearLayout
+        android:id="@+id/li_dialog_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:orientation="vertical"
+
+
+      >
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#504e4e" />
+
+        <ListView
+            android:dividerHeight="1dp"
+            android:divider="#504e4e"
+            android:id="@+id/ListViewDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/green"
+            android:gravity="center"
+            android:listSelector="@drawable/bg_listview_drawer"></ListView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#504e4e" />
+
+
+    </LinearLayout>//  android:layoutAnimation="@anim/layout_bottom_to_top_slide"
+</RelativeLayout><!--   style="@style/MyCustomTheme"android:layoutAnimation="@anim/layout_bottom_to_top_slide"-->

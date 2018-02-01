@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:id="@+id/liProfileChat">
+
+        <com.example.abc.joy23final.RoundedImageView
+            android:id="@+id/imgProfileChat"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/avatar"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/tvProfileChat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ghhgj"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
+            />
+    </LinearLayout>
+</LinearLayout>

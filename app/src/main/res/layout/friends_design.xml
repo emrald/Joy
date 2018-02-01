@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_margin="10dp">
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:id="@+id/rlProfileArrow">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="My profile"
+               android:textColor="#545252"
+               android:textSize="17sp"
+               android:gravity="center_vertical"
+               android:layout_alignParentLeft="true"
+              />
+
+
+           <ImageView
+               android:id="@+id/imgArrowProfile"
+               android:layout_width="20dp"
+               android:layout_height="20dp"
+               android:src="@drawable/arrow_up"
+               android:background="#000000"
+               android:gravity="center_vertical"
+               android:layout_alignParentRight="true"/>
+
+       </RelativeLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_margin="5dp"
+           android:id="@+id/liProfile">
+
+           <com.example.abc.joy23final.RoundedImageView
+               android:id="@+id/imgProfile"
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:src="@drawable/avatar"
+               android:layout_gravity="center_horizontal" />
+
+           <TextView
+               android:id="@+id/tvProfileName"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="ghhgj"
+               android:textColor="#000000"
+               android:textSize="17sp"
+               android:layout_marginLeft="15dp"
+               android:gravity="center_vertical"
+               />
+       </LinearLayout>
+
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="0.8dp"
+           android:background="#545252"/>
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_marginTop="10dp"
+           android:id="@+id/rlFriendsArrow">
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Friends"
+               android:textColor="#545252"
+               android:textSize="17sp"
+               android:gravity="center_vertical"
+               android:layout_alignParentLeft="true"
+               />
+
+
+           <ImageView
+               android:id="@+id/imgArrowFriends"
+               android:layout_width="20dp"
+               android:layout_height="20dp"
+               android:src="@drawable/arrow_up"
+               android:background="#000000"
+               android:gravity="center_vertical"
+               android:layout_alignParentRight="true"/>
+
+       </RelativeLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_margin="5dp"
+           android:id="@+id/liFriends">
+
+           <com.example.abc.joy23final.RoundedImageView
+               android:id="@+id/imgProfileFriend"
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:src="@drawable/avatar"
+               android:layout_gravity="center_horizontal" />
+
+           <TextView
+               android:id="@+id/tvFriendName"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="ghhgj"
+               android:textColor="#000000"
+               android:textSize="17sp"
+               android:layout_marginLeft="15dp"
+               android:gravity="center_vertical"
+               />
+       </LinearLayout>
+   </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgCoupons"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/friend_default" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvNameCoupons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="fhgfh"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <!--<RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imgStarCoupons"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/five_star" />
+
+                <TextView
+                    android:id="@+id/tvRatesCoupons"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/imgStarCoupons"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:text="(25 rates)"
+                    android:textColor="#565555"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/imgDaysCoupons"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/imgStarCoupons"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/days" />
+
+
+                <TextView
+                    android:id="@+id/tvDaysCoupons"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imgStarCoupons"
+                    android:layout_toRightOf="@+id/imgDaysCoupons"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="11 Days"
+                    android:textColor="#3b7fa9"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/imgCoupons1"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/tvRatesCoupons"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@+id/tvDaysCoupons"
+                    android:src="@drawable/coupons" />
+
+                <TextView
+                    android:id="@+id/tvCoupons"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvRatesCoupons"
+                    android:layout_toRightOf="@+id/imgCoupons1"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Coupon"
+                    android:textColor="#3b7fa9"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+-->
+
+             <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:orientation="horizontal"
+                  android:weightSum="2">
+
+                  <ImageView
+                      android:id="@+id/imgStarCoupons"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/five_star"
+                      android:scaleType="fitXY"
+                      android:layout_weight="1"
+                      android:layout_marginRight="10dp"
+                     />
+
+                  <TextView
+                      android:id="@+id/tvRatesCoupons"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:gravity="center_vertical"
+                      android:paddingBottom="10dp"
+                      android:paddingTop="10dp"
+                      android:text="(25 rates)"
+                      android:textColor="#565555"
+                      android:textSize="18sp" />
+              </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:weightSum="2">
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:orientation="horizontal">
+
+                      <ImageView
+                          android:id="@+id/imgDaysCoupons"
+                          android:layout_width="20dp"
+                          android:layout_height="match_parent"
+                          android:src="@drawable/days" />
+
+                      <TextView
+                          android:id="@+id/tvDaysCoupons"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:gravity="center_vertical"
+                          android:padding="5dp"
+                          android:text="11 Days"
+                          android:textColor="#3b7fa9"
+                          android:textSize="18sp" />
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:orientation="horizontal">
+
+                      <ImageView
+                          android:id="@+id/imgCoupons1"
+                          android:layout_width="20dp"
+                          android:layout_height="match_parent"
+                          android:src="@drawable/coupons" />
+
+                      <TextView
+                          android:id="@+id/tvCoupons"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:gravity="center_vertical"
+                          android:padding="5dp"
+                          android:text="Coupons"
+                          android:textColor="#3b7fa9"
+                          android:textSize="18sp" />
+                  </LinearLayout>
+              </LinearLayout>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

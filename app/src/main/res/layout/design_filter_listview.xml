@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?><!--<RelativeLayout--><!--android:id="@+id/rlDialogFilter"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent">-->
+
+<!-- -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlDialogFilter"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/liFilter"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="20dp"
+        android:background="#FFFFFF"
+        android:gravity="right"
+        android:orientation="vertical"
+     >
+
+        <ListView
+            android:id="@+id/lstFilter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:divider="#504e4e"
+            android:dividerHeight="0.7dp"
+            android:gravity="center"
+            android:listSelector="@drawable/bg_listview" ></ListView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:background="#504e4e" />
+
+      <!--  <TextView
+            android:id="@+id/textItemFilter1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Distance"
+            android:textColor="#000000"
+            android:textSize="18sp"
+
+            />
+
+        <TextView
+            android:id="@+id/textItemFilter2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Latest"
+            android:textColor="#000000"
+            android:textSize="18sp"
+
+            />
+
+        <TextView
+            android:id="@+id/textItemFilter3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Relevance"
+            android:textColor="#000000"
+            android:textSize="18sp"
+
+            />
+
+        <TextView
+            android:id="@+id/textItemFilter4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            android:padding="5dp"
+            android:text="Price:Low to High"
+            android:textColor="#000000"
+            android:textSize="18sp"
+
+            />
+
+        <TextView
+            android:id="@+id/textItemFilter5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Price:High to Low"
+            android:textColor="#000000"
+            android:textSize="18sp"
+
+            />
+
+        <TextView
+            android:id="@+id/textItemFilter6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Avg.Customer Review"
+            android:textColor="#000000"
+            android:textSize="18sp"
+
+            />-->
+    </LinearLayout>
+</RelativeLayout>
